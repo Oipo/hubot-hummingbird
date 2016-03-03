@@ -5,10 +5,12 @@ Search hummingbird.me using the v1 API
 `npm install kurisu-hummingbird`
 
 ## Example usage
+```
 Kurisu: hummingbird-search steins gate
 Kurisu> !Found 7 possible anime. First possible anime: Steins;Gate
 Kurisu: hummingbird-list 0
 Kurisu> Steins;Gate - Steins;Gate is set in the summer of 2010, approximately one year after the events that took place in  - more info: https://hummingbird.me/anime/steins-gate
+```
     
 ## License
 The MIT License (MIT)
