@@ -1,15 +1,15 @@
-# kurisu-hummingbird [![Build Status](https://travis-ci.org/Oipo/kurisu-hummingbird.svg?branch=master)](https://travis-ci.org/Oipo/kurisu-hummingbird)
+# hubot-hummingbird [![Build Status](https://travis-ci.org/Oipo/hubot-hummingbird.svg?branch=master)](https://travis-ci.org/Oipo/hubot-hummingbird)
 Search hummingbird.me using the v1 API
 
 ## Installing
-`npm install kurisu-hummingbird`
+`npm install hubot-hummingbird`
 
 ## Example usage
 ```
-Kurisu: hummingbird-search steins gate
-Kurisu> !Found 7 possible anime. First possible anime: Steins;Gate
-Kurisu: hummingbird-list 0
-Kurisu> Steins;Gate - Steins;Gate is set in the summer of 2010, approximately one year after the events that took place in  - more info: https://hummingbird.me/anime/steins-gate
+hubot: hummingbird-search steins gate
+hubot> !Found 7 possible anime. First possible anime: Steins;Gate
+hubot: hummingbird-list 0
+hubot> Steins;Gate - Steins;Gate is set in the summer of 2010, approximately one year after the events that took place in  - more info: https://hummingbird.me/anime/steins-gate
 ```
     
 ## License

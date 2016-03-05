@@ -1,9 +1,9 @@
 {
-  "name": "kurisu-hummingbird",
+  "name": "hubot-hummingbird",
   "description": "Search hummingbird.me using the v1 API",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "lib/hummingbird.js",
   "author": "Michael de Lang",
   "scripts": {
     "lint": "coffeelint src/ test/",
@@ -19,6 +19,7 @@
     "chai": "^3.5.0",
     "coffee-script": "^1.10.0",
     "coffeelint": "^1.14.2",
+    "hubot-test-helper": "^1.4.4",
     "mocha": "^2.4.5",
     "onchange": "^2.1.2"
   }

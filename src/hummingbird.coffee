@@ -20,13 +20,25 @@ module.exports = (robot) ->
 
 
   robot.respond /hummingbird-list (.*)/i, (res) ->
-    if not searchResults?
+    if not searchResults? or Object.keys(searchResults).length == 0
       res.send "Search for something first. Baka."
       return
 
-    number = res.match[1]
+    if not res.match? or res.match[1].length <= 0
+      res.send "Need exactly 1 argument."
+      return
 
-    if number > searchResults.length
+    number = parseInt(res.match[1], 10)
+
+    if not number? or isNaN number
+      res.send "Argument was not a number"
+      return
+
+    if number < 0
+      res.send "You don't have to be so negative..."
+      return
+
+    if number > searchResults.search.length
       res.send "Not enough search results. Found #{searchResults.search.length} possible anime."
       return
 
